@@ -6,6 +6,8 @@ To build a distinct AI roleplay character, define a motivation, a non-negotiable
 
 This guide includes an [open-source workshop and downloadable templates](https://github.com/CrushOnAI/character-personality-kit). The workshop runs entirely in your browser and exports an editable brief. It does not call an AI model or predict response quality.
 
+[Try the live Character Personality Workshop on Hugging Face](https://huggingface.co/spaces/CrushonAI/character-personality-workshop), or download the templates above to work offline.
+
 **Disclosure:** This guide and the workshop are published by the [CrushOn.AI](https://crushon.ai/) team. The text was drafted with AI assistance and reviewed by the publishing assistant. Dialogue below is authored illustration, not a recorded product test.
 
 ## Start with a choice, not an adjective list

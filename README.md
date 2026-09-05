@@ -17,6 +17,8 @@ Maintained by the [CrushOn.AI](https://crushon.ai/) team. The templates are plat
 
 ## Try it
 
+[Open the live Hugging Face workshop](https://huggingface.co/spaces/CrushonAI/character-personality-workshop) · [Read the Dev.to guide](https://dev.to/crushonai/how-to-create-an-ai-roleplay-character-with-a-distinct-personality-2lpg)
+
 Open `index.html` in a modern browser, or run `python3 -m http.server 8080` in this directory and visit `http://localhost:8080`.
 
 - Start with the original SFW character Iris Vale, an adult museum conservator.
