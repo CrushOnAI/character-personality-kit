@@ -40,7 +40,7 @@ The app makes no network requests, uses no analytics or external dependencies, a
 
 ## What the checks can and cannot do
 
-Checks flag missing fields, identical normal/stress behavior, and missing voice examples. They do **not** understand the character, detect all contradictions, score writing quality, or predict how any model will respond. The scenario probes are manual exercises. All sample dialogue is authored illustration, not a recorded model response.
+Checks flag missing fields, identical normal/stress behavior, and missing voice examples. They do **not** understand the character, detect all contradictions, score writing quality, or predict how any model will respond. The personality examples are authored illustrations. The separately labelled scene-state case study contains recorded model responses with limitations.
 
 The JSON format is this workshop's own editable brief, not a Character Card V2, World Card, or guaranteed import format. Adapt the exported text to the destination platform's current fields. No specific CrushOn import integration is claimed.
 
@@ -49,3 +49,6 @@ The JSON format is this workshop's own editable brief, not a Character Card V2, 
 Initial release: one original example, eight authoring fields, Markdown/JSON exports, deterministic advisory checks, five manual scenario probes, and the companion guide. No model inference or paid service is required.
 
 Content and code were drafted with AI assistance and reviewed by the publishing assistant. No independent human product test or comparative performance study is claimed.
+# Scene-state extension (v0.2.0)
+
+Includes [a manual scene worksheet](scene.html), a [blank template](templates/scene-state.md), a [usage and compatibility guide](docs/scene-state-guide.md), and a [three-message case study](docs/scene-state-case-study.md). It compares two human-edited snapshots and exports a handoff; it does not infer facts, read chats, or add model memory. Run `node scene-tests.cjs` for its core checks.
