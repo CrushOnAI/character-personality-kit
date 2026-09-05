@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+import fs from 'node:fs';
+const require=createRequire(import.meta.url),k=require('./core.js');
+assert.equal(k.review({}).length,8);
+assert.equal(k.review(k.example).length,1);
+assert.match(k.review({...k.example,stress:k.example.normal}).join(' '),/identical/);
+assert.match(k.review({...k.example,voice:'one line'}).join(' '),/second voice/);
+assert.equal(k.clean({identity:12}).identity,'');
+assert.match(k.markdown({identity:'雪 <script>alert(1)</script>'}),/雪/);
+assert.match(k.markdown(k.example),/Do not decide the user's thoughts/);
+assert.deepEqual(JSON.parse(fs.readFileSync('examples/iris-vale.json','utf8')),k.example);
+assert.doesNotMatch(fs.readFileSync('app.js','utf8'),/innerHTML|fetch\(|localStorage|XMLHttpRequest/);
+console.log('9 checks passed');
