@@ -2,6 +2,8 @@
 
 Scene-state extension for Character Personality Workshop v0.2.0.
 
+Published by the [CrushOn.AI](https://crushon.ai/) team for roleplay writers. In CrushOn.AI, review the Markdown handoff and paste the relevant update into your character chat, then check the reply before continuing. The tool does not send data to your account or modify native memory; it also works as a manual worksheet for other platforms.
+
 ## Run locally
 
 Open `scene.html` in a browser, or serve this directory with a static HTTP server. No package installation, model API key, or build step is required. `index.html` remains the original personality editor.

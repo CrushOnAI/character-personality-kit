@@ -130,7 +130,7 @@ Revise one part of the brief at a time. If every answer is sarcastic, narrow the
 
 [CrushOn.AI](https://crushon.ai/) is an option to consider if you want to create a character and chat in a hosted service. Use the brief as an authoring aid: adapt the enduring identity, motivation, behavior, and voice to the character configuration available in your account, and use the opening scene for the conversation's starting situation where supported.
 
-This is a conceptual mapping, not a field-by-field interface tutorial. Exact controls can change. The workshop's JSON is not a claimed CrushOn import format; copy and adapt the text unless the product explicitly supports a compatible import.
+In the CrushOn.AI creation interface checked on September 5, 2026, **Introduction** is a display description and explicitly does not influence memory or prompts. Put enduring motivation and behavior into **Personality**, and use **Greeting** for the initial situation. Do not put all the instructions only in the Introduction field. These field labels may change; the worksheet's JSON is not a native CrushOn.AI import format, so copy and adapt the Markdown text.
 
 Try the same five probes in your chosen model and revise from the actual replies. Model choice, context, settings, and platform behavior all affect results. If you need detailed control of local inference or prompt assembly, a configurable frontend may suit you better. This template remains useful in either workflow.
 
