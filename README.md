@@ -1,5 +1,5 @@
 ---
-title: Character Personality Workshop
+title: CrushOn.AI Character Personality Workshop
 emoji: 🎭
 colorFrom: indigo
 colorTo: pink
@@ -9,11 +9,17 @@ pinned: false
 license: mit
 ---
 
-# Character Personality Workshop
+# CrushOn.AI Character Personality Workshop
 
 Turn character traits into observable choices. A small, browser-only workshop for AI roleplay authors: fill a character brief, inspect simple completeness checks, and export Markdown or JSON.
 
 Maintained by the [CrushOn.AI](https://crushon.ai/) team. The templates are platform-neutral. This is a writing aid, not a chatbot or a measured benchmark of model quality.
+
+## Use the brief in CrushOn.AI
+
+CrushOn.AI combines character creation and hosted character chat. Prepare a brief here, then adapt it in the [character editor](https://crushon.ai/character/create): use Introduction as the reader-facing description, Personality for enduring behavior and motivation, and Greeting for the initial scene. The interface checked on September 5, 2026 explicitly said Introduction does not influence memory or prompts. Do not put all your character instructions only in that display field.
+
+For an ongoing chat, review the scene worksheet's Markdown and paste a concise state correction into the conversation. The [recorded case study](docs/scene-state-case-study.md) shows both a corrected ownership error and a remaining invented detail. This is a manual workflow, not native import, automatic memory, or a performance guarantee. The same authoring principles can be adapted to other platforms.
 
 ## Try it
 
