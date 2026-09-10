@@ -50,6 +50,10 @@ Checks flag missing fields, identical normal/stress behavior, and missing voice 
 
 The JSON format is this workshop's own editable brief, not a Character Card V2, World Card, or guaranteed import format. Adapt the exported text to the destination platform's current fields. No specific CrushOn import integration is claimed.
 
+## Personality comparison worksheet
+
+The [comparison worksheet](comparison.html) records six fresh conversations across three authored conditions: traits, traits plus rules, and traits plus rules plus dialogue. Read the [copyable protocol](docs/personality-comparison-method.md) first. Export all 30 replies and manual evidence notes as JSON. Blank rows are explicitly untested; the tool does not generate, grade, or verify responses. [Five baseline replies](docs/personality-observations-20260910.md) are recorded, but the full comparison remains incomplete. No B/C advantage is claimed. Run `node comparison-tests.cjs` for the recording/export checks.
+
 ## Version 0.1.0
 
 Initial release: one original example, eight authoring fields, Markdown/JSON exports, deterministic advisory checks, five manual scenario probes, and the companion guide. No model inference or paid service is required.
