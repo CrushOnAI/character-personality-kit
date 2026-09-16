@@ -62,3 +62,7 @@ Content and code were drafted with AI assistance and reviewed by the publishing 
 # Scene-state extension (v0.2.0)
 
 Includes [a manual scene worksheet](scene.html), a [blank template](templates/scene-state.md), a [usage and compatibility guide](docs/scene-state-guide.md), and a [three-message case study](docs/scene-state-case-study.md). It compares two human-edited snapshots and exports a handoff; it does not infer facts, read chats, or add model memory. Run `node scene-tests.cjs` for its core checks.
+
+## Choosing a character creation workflow
+
+Read the [character creator comparison reference](docs/ai-character-creators-compared.md) for documented capabilities, evidence limits and a reusable selection checklist. Prepared by CrushOn.AI; not an independent product ranking.
