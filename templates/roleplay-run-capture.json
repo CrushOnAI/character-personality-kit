@@ -1,0 +1,36 @@
+{
+  "schema": "crushon-roleplay-evidence-sidecar",
+  "schema_version": "0.1",
+  "record_type": "blank-template",
+  "evidence_state": "not-run",
+  "notice": "This file contains no generated replies and is not a completed test result or native character import.",
+  "protocol_url_or_version": null,
+  "run_label": null,
+  "condition": null,
+  "platform": null,
+  "displayed_model_label": null,
+  "account_tier": "unknown",
+  "captured_at": null,
+  "time_zone": null,
+  "fresh_conversation": null,
+  "character_fields": {},
+  "greeting": null,
+  "scenario": null,
+  "world_or_memory_inputs": [],
+  "visible_settings": {},
+  "unexposed_settings": [],
+  "visibility": {
+    "character": "unknown",
+    "definition": "unknown"
+  },
+  "first_reply_policy": null,
+  "planned_reply_count": null,
+  "replies": [],
+  "regenerations": [],
+  "deviations": [],
+  "reviews": [],
+  "limitations": [
+    "Not run. Replace unknowns only with recorded information."
+  ],
+  "privacy_note": "Use fictional SFW inputs; omit account IDs, private URLs and personal information."
+}

@@ -66,3 +66,7 @@ Includes [a manual scene worksheet](scene.html), a [blank template](templates/sc
 ## Choosing a character creation workflow
 
 Read the [character creator comparison reference](docs/ai-character-creators-compared.md) for documented capabilities, evidence limits and a reusable selection checklist. Prepared by CrushOn.AI; not an independent product ranking.
+
+## Recording AI roleplay evidence
+
+Use the [AI Roleplay Evidence Ledger](docs/ai-roleplay-evidence-ledger.md), [copyable reproducibility card](templates/roleplay-test-reproducibility-card.txt), and [blank capture sidecar](templates/roleplay-run-capture.json) to keep exact inputs, complete replies, and review judgments separate. These are documentation templates, not new test results; the existing six-conversation comparison remains incomplete.

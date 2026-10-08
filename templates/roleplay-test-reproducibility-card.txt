@@ -1,0 +1,49 @@
+AI ROLEPLAY TEST REPRODUCIBILITY CARD
+
+1. QUESTION
+What exact behavior or failure is being investigated?
+What would count as a relevant observation?
+What is outside this test's scope?
+
+2. INPUTS
+Original character and fictional adult age:
+Character fields: attach the exact authored text
+Greeting:
+Scenario / initial state:
+World or memory material intentionally included:
+Condition labels and the exact difference between them:
+
+3. ENVIRONMENT
+Platform:
+Displayed model label:
+Account tier: known value / unknown
+Capture date and time zone:
+Relevant settings and feature switches:
+Settings not exposed by the interface:
+Character visibility and definition visibility:
+
+4. EXECUTION
+Fresh conversation for each run: yes / no
+Run order:
+Exact user messages:
+First replies or regenerations:
+Retry rule and actual retries:
+Planned conversations / completed conversations:
+Planned replies / recorded replies:
+
+5. REVIEW
+Behavior: met / partial / not met / not applicable
+User agency: met / partial / not met / not applicable
+Grounding: met / partial / not met / not applicable
+Requested format: met / partial / not met / not applicable
+Voice: editorial assessment with reasons
+Verbatim evidence for each judgment:
+Reviewer type and whether condition labels were hidden:
+
+6. LIMITATIONS AND REUSE
+Incomplete conditions:
+Uncontrolled differences:
+Allowed fictional invention versus protected unknowns:
+Claims this test does not support:
+Link to complete inputs and replies:
+Changes made after the original capture:
