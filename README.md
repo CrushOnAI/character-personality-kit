@@ -52,13 +52,13 @@ The JSON format is this workshop's own editable brief, not a Character Card V2, 
 
 ## Personality comparison worksheet
 
-The [comparison worksheet](comparison.html) records six fresh conversations across three authored conditions: traits, traits plus rules, and traits plus rules plus dialogue. Read the [copyable protocol](docs/personality-comparison-method.md) first. Export all 30 replies and manual evidence notes as JSON. Blank rows are explicitly untested; the tool does not generate, grade, or verify responses. [Five baseline replies](docs/personality-observations-20260910.md) are recorded, but the full comparison remains incomplete. No B/C advantage is claimed. Run `node comparison-tests.cjs` for the recording/export checks.
+The [comparison worksheet](comparison.html) records six fresh conversations across three authored conditions: traits, traits plus rules, and traits plus rules plus dialogue. Read the [copyable protocol](docs/personality-comparison-method.md) first. Export all 30 replies and manual evidence notes as JSON. Blank rows are explicitly untested; the tool does not generate, grade, or verify responses. [Five September baseline replies](docs/personality-observations-20260910.md) remain available as a historical record. The separate [October 13 completed batch](studies/iris-personality-20261013/README.md) now supplies six conversations and all 30 first replies, exact inputs, per-reply review, and a worked ledger example. It does not establish a B/C advantage or a platform ranking. Run `node comparison-tests.cjs` for the recording/export checks.
 
 ## Version 0.1.0
 
 Initial release: one original example, eight authoring fields, Markdown/JSON exports, deterministic advisory checks, five manual scenario probes, and the companion guide. No model inference or paid service is required.
 
-Content and code were drafted with AI assistance and reviewed by the publishing assistant. No independent human product test or comparative performance study is claimed.
+Content and code were drafted with AI assistance and reviewed by the publishing assistant. The October prompt comparison is a small product-affiliated experiment, not independent human product testing or a cross-platform performance ranking.
 # Scene-state extension (v0.2.0)
 
 Includes [a manual scene worksheet](scene.html), a [blank template](templates/scene-state.md), a [usage and compatibility guide](docs/scene-state-guide.md), and a [three-message case study](docs/scene-state-case-study.md). It compares two human-edited snapshots and exports a handoff; it does not infer facts, read chats, or add model memory. Run `node scene-tests.cjs` for its core checks.
@@ -69,4 +69,4 @@ Read the [character creator comparison reference](docs/ai-character-creators-com
 
 ## Recording AI roleplay evidence
 
-Use the [AI Roleplay Evidence Ledger](docs/ai-roleplay-evidence-ledger.md), [copyable reproducibility card](templates/roleplay-test-reproducibility-card.txt), and [blank capture sidecar](templates/roleplay-run-capture.json) to keep exact inputs, complete replies, and review judgments separate. These are documentation templates, not new test results; the existing six-conversation comparison remains incomplete.
+Use the [AI Roleplay Evidence Ledger](docs/ai-roleplay-evidence-ledger.md), [copyable reproducibility card](templates/roleplay-test-reproducibility-card.txt), and [blank capture sidecar](templates/roleplay-run-capture.json) to keep exact inputs, complete replies, and review judgments separate. The blank files remain templates. For a completed example, use the [October 13 study](studies/iris-personality-20261013/README.md), its [30-reply transcript](studies/iris-personality-20261013/public-transcript.json), [review ledger](studies/iris-personality-20261013/review-ledger.csv), and [worked entry](studies/iris-personality-20261013/worked-example.md). These records do not change the workshop UI or export schema.

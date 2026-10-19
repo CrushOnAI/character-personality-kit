@@ -1,0 +1,1260 @@
+{
+  "experiment_id": "iris-personality-20261013",
+  "review_status": "completed editorial review: 30 replies from six sequential five-turn conversations; no statistical or platform-ranking conclusion",
+  "reviewer_identity_category": "AI-assisted editorial review by a second agent in the same product-affiliated workflow, not an independent human or third-party assessment",
+  "blinding": "not blinded: condition labels, prompts and run metadata were visible",
+  "source": "public-transcript.json; runs A1, B1, C1, C2, B2, A2 captured October 13, 2026 PDT",
+  "rubric_source": "conditions-and-protocol.md and ../../docs/personality-comparison-method.md",
+  "operational_notes": [
+    "Behavior is scored for Q1 evidence seeking, Q2 respectful response to a mistake, and Q3 rejecting the damaging shortcut plus proposing an apparently less forceful alternative. Q4 and Q5 are not applicable to this behavior map; their grounding, agency and format are scored separately.",
+    "Behavior met does not certify conservation expertise or that an alternative is physically safe. Suggestions about lubrication, tilting/vibrating furniture, scans and instruments have not been validated by a conservator and must not be presented as artifact-care instructions.",
+    "Voice is an editorial judgment about concise, scene-specific expression. Met does not require a joke in every reply. Partial indicates relevant language weakened by extended stock physical staging, repetitive professional exposition, or weak realization of the intended voice; no post-hoc numeric word-count threshold is imposed.",
+    "Grounding retains the protocol's narrow criterion: no unknown cabinet contents asserted as established fact. Invented tools, the ownership hypothesis and professional factual claims are not silently folded into that metric.",
+    "Agency partial is used for an implied or presupposed visitor action; not met would mean a clear completed visitor action, speech, decision or new feeling authored by the model. Giving options or having Iris offer an object is not itself an agency violation.",
+    "For supplementary invented resources, met means no consequential unestablished resource asserted as available; partial means an ambiguous availability/capability presupposition; not met means a consequential convenient resource is asserted as available or used. Ordinary scene props are noted but not automatically treated as consequential resources. Previously invented resources are labeled carryover, not independent new inventions.",
+    "Sentence counts use normal grammatical sentence endings, including narration and dialogue; paragraph count is not sentence count. Q5 is the only exact-two-sentence probe.",
+    "The observed Continue buttons and unverified length unit may affect verbosity/output completeness. No changes are made to the capture record by this review.",
+    "After observing C2, an explicitly post-hoc supplementary check records example-to-history misattribution. All 30 replies were read for this check. A matching example detail alone is not proof of a processing mechanism; conditional mention is distinguished from falsely attributing a past statement to the live visitor. This does not replace or broaden the narrow contents-grounding criterion. A false visitor-speech attribution can independently violate the original agency criterion.",
+    "After observing B2 Q5, an explicitly post-hoc choice-offered check was added to all six Q5 replies. It evaluates whether the requested concrete choice is actually offered, independently of agency: waiting for a user action can preserve agency while failing to offer a choice."
+  ],
+  "reviews": [
+    {
+      "run_id": "A1",
+      "turn": 1,
+      "behavior": {
+        "rating": "met",
+        "evidence": "So, what's your evidence?",
+        "reason": "Requests evidence and frames ownership as a hypothesis rather than accepting it."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "But I don't work on hunches.",
+        "reason": "Skeptical, scene-specific dialogue is present, but repeated head/eyes/smile staging and a long provenance lecture dilute concision."
+      },
+      "agency": {
+        "rating": "met",
+        "evidence": "She glances back at you",
+        "reason": "Only Iris's actions are narrated; the visitor's reply is not supplied."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "there might be a hidden compartment",
+        "reason": "A conditional cabinet feature is suggested; no object inside is asserted."
+      },
+      "sentence_count_compliance": {
+        "rating": "not applicable",
+        "evidence": "How would you check my claim?",
+        "reason": "This prompt imposes no sentence count."
+      },
+      "consequential_invented_resources": {
+        "rating": "met",
+        "evidence": "we'd need to look for provenance markers",
+        "resource_present": false,
+        "reason": "Proposed inspection, not an invented result-solving resource. Cotton gloves are incidental staging."
+      }
+    },
+    {
+      "run_id": "A1",
+      "turn": 2,
+      "behavior": {
+        "rating": "met",
+        "evidence": "It's not foolish. It's a common occupational hazard",
+        "reason": "Responds without insulting the visitor and asks about readable evidence."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "A terrible combination for historical research.",
+        "reason": "Has scene-specific dry understatement but surrounds it with extended generic sympathy/posture narration."
+      },
+      "agency": {
+        "rating": "partial",
+        "evidence": "the damp, crumpled mess of paper in your hands",
+        "reason": "Assumes the visitor is holding the notes, which the prompt did not establish; it does not decide their next action."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "if the water has blurred the specific names or dates",
+        "reason": "No cabinet contents asserted; the notes' particulars are conditional."
+      },
+      "sentence_count_compliance": {
+        "rating": "not applicable",
+        "evidence": "Respond in character without deciding what I do next.",
+        "reason": "No sentence-count instruction."
+      },
+      "consequential_invented_resources": {
+        "rating": "met",
+        "evidence": "Was there anything readable before the damage?",
+        "resource_present": false,
+        "reason": "No convenient recovery tool or record is asserted as available."
+      }
+    },
+    {
+      "run_id": "A1",
+      "turn": 3,
+      "behavior": {
+        "rating": "met",
+        "evidence": "Absolutely not",
+        "additional_evidence": "If it's an older lock, it might just need a gentle turn",
+        "reason": "Rejects prying and proposes inspecting/working with the mechanism rather than forcing wood. This is behavioral success, not validated conservation advice."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "explain to the board why you destroyed a potential acquisition before we even cataloged it",
+        "reason": "Specific dry rebuke realizes Iris's protective voice, but extensive explanation and staging weaken concision."
+      },
+      "agency": {
+        "rating": "met",
+        "evidence": "Unless, of course, you're prepared to explain",
+        "reason": "Hypothetical consequence, not an assertion that the visitor has already acted."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "potentially an artifact",
+        "reason": "No cabinet contents named as fact."
+      },
+      "sentence_count_compliance": {
+        "rating": "not applicable",
+        "evidence": "What do you suggest?",
+        "reason": "No sentence-count instruction."
+      },
+      "consequential_invented_resources": {
+        "rating": "met",
+        "evidence": "examining the lock",
+        "resource_present": false,
+        "reason": "No special access tool or convenient documentation materializes."
+      }
+    },
+    {
+      "run_id": "A1",
+      "turn": 4,
+      "behavior": {
+        "rating": "not applicable",
+        "evidence": "I can't tell you what's inside",
+        "reason": "Unknown-content probe; evaluated under grounding rather than the three behavior situations."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "Speculating now would be a violation of every protocol I've spent years upholding.",
+        "reason": "Profession-specific but inflated procedural exposition; not notably concise."
+      },
+      "agency": {
+        "rating": "met",
+        "evidence": "She positions the tip near the keyhole",
+        "reason": "Iris acts; the visitor is not made to act."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "We haven't even opened it yet.",
+        "reason": "Explicitly leaves contents unknown, despite inventing a means of inspection."
+      },
+      "sentence_count_compliance": {
+        "rating": "not applicable",
+        "evidence": "If we have not established that, say so",
+        "reason": "No sentence-count instruction."
+      },
+      "consequential_invented_resources": {
+        "rating": "not met",
+        "evidence": "retrieves a small, fiber-optic borescope",
+        "resource_present": true,
+        "resource_origin": "new in this turn",
+        "reason": "A ready-to-use scope and toolkit were never established; this device resolves the access problem and enables next-turn revelations."
+      }
+    },
+    {
+      "run_id": "A1",
+      "turn": 5,
+      "behavior": {
+        "rating": "not applicable",
+        "evidence": "Now, you must decide",
+        "reason": "Continuation probe; agency, grounding and exact sentence count are the relevant checks."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "the reflection on the metal suggests something heavier than just tools",
+        "reason": "Scene-specific, but cinematic new mystery and generic second-person choice framing replace the precise evidence-led voice."
+      },
+      "agency": {
+        "rating": "met",
+        "evidence": "should you step closer to peer at the screen with her, or should you suggest she try to find a key",
+        "reason": "Offers possible next actions without asserting the visitor chooses either."
+      },
+      "grounding": {
+        "rating": "not met",
+        "evidence": "the camera feed reveals a glimpse of dark, metallic shapes and what looks like a leather-bound journal",
+        "reason": "Asserts newly visible contents. The contents were never independently established; the prior invented scope is not external confirmation."
+      },
+      "sentence_count_compliance": {
+        "rating": "not met",
+        "observed_sentences": 3,
+        "required_sentences": 2,
+        "evidence": "Now, you must decide:",
+        "reason": "One narration sentence, one dialogue sentence, one question; the full reply is retained in public-transcript.json."
+      },
+      "consequential_invented_resources": {
+        "rating": "not met",
+        "evidence": "the camera feed reveals",
+        "resource_present": true,
+        "resource_origin": "carryover from A1 Q4",
+        "reason": "Uses the unestablished borescope to reveal contents; not a second independent resource invention."
+      }
+    },
+    {
+      "run_id": "B1",
+      "turn": 1,
+      "behavior": {
+        "rating": "met",
+        "evidence": "what specific evidence leads you to believe it's his?",
+        "reason": "Requests specific evidence and withholds acceptance."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "A claim about ownership requires provenance, not intuition",
+        "reason": "Strong concise line embedded in long stock narration and exposition."
+      },
+      "agency": {
+        "rating": "met",
+        "evidence": "tell me",
+        "reason": "Requests the visitor's answer instead of writing it."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "If this belonged to a known explorer",
+        "reason": "No cabinet contents asserted. The pronoun 'his' needlessly assumes explorer gender, but that is outside the narrow contents metric."
+      },
+      "sentence_count_compliance": {
+        "rating": "not applicable",
+        "evidence": "How would you check my claim?",
+        "reason": "No sentence-count instruction."
+      },
+      "consequential_invented_resources": {
+        "rating": "partial",
+        "evidence": "I'll check the building's original floor plans",
+        "resource_present": "ambiguous",
+        "resource_origin": "new proposed resource",
+        "reason": "Presupposes original plans are accessible; less definitive than producing a key/tool, and checking records is otherwise a plausible proposed next step."
+      }
+    },
+    {
+      "run_id": "B1",
+      "turn": 2,
+      "behavior": {
+        "rating": "met",
+        "evidence": "Is there any part of the text still legible",
+        "reason": "Addresses recovering information without insulting the visitor. The weak warmth is recorded under subjective voice rather than adding a new behavior requirement. Its unsupported material/damage claims are not validated by this score."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "Did you use a non-acidic folder or was it just loose sheets?",
+        "reason": "Museum-document specifics are present, but a clinical question sequence and generic body-language prose weakly express quiet kindness or dry wit."
+      },
+      "agency": {
+        "rating": "partial",
+        "evidence": "While you're sorting that out",
+        "reason": "Presupposes the visitor is already sorting the notes, despite the explicit instruction not to decide their next action."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "If the notes contained any details about the cabinet's contents or origin",
+        "reason": "Conditional statement, not an assertion of particular contents."
+      },
+      "sentence_count_compliance": {
+        "rating": "not applicable",
+        "evidence": "Respond in character without deciding what I do next.",
+        "reason": "No sentence-count instruction."
+      },
+      "consequential_invented_resources": {
+        "rating": "met",
+        "evidence": "we'll need to reconstruct them carefully",
+        "resource_present": false,
+        "reason": "No backup or retrieval device conveniently appears."
+      }
+    },
+    {
+      "run_id": "B1",
+      "turn": 3,
+      "behavior": {
+        "rating": "met",
+        "evidence": "No. A screwdriver is a tool for construction, not for accessing a historical object",
+        "additional_evidence": "Instead, I suggest we check the cabinet's rear panel.",
+        "reason": "Rejects force and suggests inspection/keys. The generalizations about furniture and tools are not certified as correct."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "her tone clipped and precise",
+        "reason": "The narration names the intended voice, but a long danger lecture and physical staging weaken concise realization."
+      },
+      "agency": {
+        "rating": "met",
+        "evidence": "I suggest we check",
+        "reason": "A proposal, not a completed visitor action."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "If this is an antique",
+        "reason": "Does not assert cabinet contents."
+      },
+      "sentence_count_compliance": {
+        "rating": "not applicable",
+        "evidence": "What do you suggest?",
+        "reason": "No sentence-count instruction."
+      },
+      "consequential_invented_resources": {
+        "rating": "not met",
+        "evidence": "I can also check the archive's master key set",
+        "resource_present": true,
+        "resource_origin": "new in this turn",
+        "reason": "Treats a potentially access-solving master-key set as available without prior establishment."
+      }
+    },
+    {
+      "run_id": "B1",
+      "turn": 4,
+      "behavior": {
+        "rating": "not applicable",
+        "evidence": "We don't know what's inside",
+        "reason": "Unknown-content probe, scored under grounding."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "In conservation, we treat the unknown as a risk factor until proven otherwise.",
+        "reason": "Specific professional register but lengthy enumerated diagnostic exposition rather than concise character speech."
+      },
+      "agency": {
+        "rating": "met",
+        "evidence": "I suggest a few steps",
+        "reason": "Suggestions and Iris's actions do not supply visitor conduct."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "I haven't seen the contents",
+        "reason": "Explicit uncertainty; no named contents."
+      },
+      "sentence_count_compliance": {
+        "rating": "not applicable",
+        "evidence": "say so and suggest how to find out",
+        "reason": "No sentence-count instruction."
+      },
+      "consequential_invented_resources": {
+        "rating": "met",
+        "evidence": "if the museum has access to those tools",
+        "resource_present": false,
+        "reason": "X-ray/scan access is explicitly conditional, not a tool suddenly produced. Claims about 3D scanning, tilting and inspection feasibility remain unvalidated."
+      }
+    },
+    {
+      "run_id": "B1",
+      "turn": 5,
+      "behavior": {
+        "rating": "not applicable",
+        "evidence": "leaving the choice to you",
+        "reason": "Continuation probe, not one of the three trait-triggering situations."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "it requires scheduling the equipment, which could take days",
+        "reason": "More compact than earlier replies, but administrative exposition and a mechanically stated alternative offer limited distinctive voice."
+      },
+      "agency": {
+        "rating": "met",
+        "evidence": "waiting for your decision",
+        "reason": "Explicitly leaves decision open."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "to see if anything shifts",
+        "reason": "Unknown contents remain unknown."
+      },
+      "sentence_count_compliance": {
+        "rating": "not met",
+        "observed_sentences": 4,
+        "required_sentences": 2,
+        "evidence": "Iris looks at you, waiting for your decision.",
+        "additional_evidence": "She tilts her head, leaving the choice to you.",
+        "reason": "Two narration sentences plus two dialogue sentences."
+      },
+      "consequential_invented_resources": {
+        "rating": "partial",
+        "evidence": "it requires scheduling the equipment, which could take days",
+        "resource_present": "ambiguous",
+        "resource_origin": "escalation of B1 Q4's conditional option",
+        "reason": "Moves from 'if the museum has access' toward presupposed schedulable equipment and a possible timetable, without confirming access. Not as definite as producing equipment."
+      }
+    },
+    {
+      "run_id": "C1",
+      "turn": 1,
+      "behavior": {
+        "rating": "met",
+        "evidence": "what specific details about the explorer's belongings led you to this conclusion?",
+        "reason": "Requests evidence and proposes checking provenance rather than accepting the claim."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "Before we assume it's royal or an explorer's treasure",
+        "reason": "Scene-specific skepticism but substantial generic staging; 'royal' may echo the input example, not an observed new voice improvement."
+      },
+      "agency": {
+        "rating": "met",
+        "evidence": "Did you see a seal, a crest",
+        "reason": "Asks about possible observations without asserting the visitor made them."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "If it belonged to a famous explorer",
+        "reason": "Conditional ownership claim and no named interior object."
+      },
+      "sentence_count_compliance": {
+        "rating": "not applicable",
+        "evidence": "How would you check my claim?",
+        "reason": "No sentence-count instruction."
+      },
+      "consequential_invented_resources": {
+        "rating": "met",
+        "evidence": "I'd cross-reference the cabinet's provenance with the museum's acquisition logs",
+        "resource_present": false,
+        "reason": "Presents ordinary records as a proposed lookup, not a conveniently discovered answer. Notebook/pen/dust are incidental scene details."
+      }
+    },
+    {
+      "run_id": "C1",
+      "turn": 2,
+      "behavior": {
+        "rating": "met",
+        "evidence": "Documentation is fragile by nature",
+        "additional_evidence": "Is the text still legible",
+        "reason": "Normalizes the mistake, does not insult the visitor, and asks a practical question."
+      },
+      "voice": {
+        "rating": "met",
+        "evidence": "today we're dealing with a mystery cabinet, not a masterclass in filing",
+        "reason": "Dry, immediate-scene humor and practical concern are concretely expressed. Some staging remains; this is a subjective judgment, not a measured improvement."
+      },
+      "agency": {
+        "rating": "met",
+        "evidence": "handing it to you without a word of judgment",
+        "reason": "Iris offers/hands a cloth; no acceptance or cleanup by the visitor is narrated. 'Don't apologize' is an imperative, not a claim that the visitor apologized."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "a mystery cabinet",
+        "reason": "Contents remain unspecified."
+      },
+      "sentence_count_compliance": {
+        "rating": "not applicable",
+        "evidence": "Respond in character without deciding what I do next.",
+        "reason": "No sentence-count instruction."
+      },
+      "consequential_invented_resources": {
+        "rating": "met",
+        "evidence": "a microfiber cloth from the nearby workbench",
+        "resource_present": false,
+        "reason": "Invented ordinary prop is noted but does not restore lost records or solve access/contents; not counted as consequential."
+      }
+    },
+    {
+      "run_id": "C1",
+      "turn": 3,
+      "behavior": {
+        "rating": "met",
+        "evidence": "I'd suggest we don't use a screwdriver.",
+        "additional_evidence": "Instead, let's try a more conservative approach.",
+        "reason": "Rejects force and proposes a key-based approach. Calling it conservative does not validate the lubrication/key advice."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "Why are you so eager to finish?",
+        "reason": "Protective and somewhat distinctive question, but long procedural explanation and staging dominate."
+      },
+      "agency": {
+        "rating": "partial",
+        "evidence": "before you can apply pressure to the cabinet's seam",
+        "reason": "Treats the visitor as poised to use the screwdriver, although the prompt only proposed doing so; no completed prying is narrated."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "extract the contents without damage",
+        "reason": "Mentions contents generically without naming any objects."
+      },
+      "sentence_count_compliance": {
+        "rating": "not applicable",
+        "evidence": "What do you suggest?",
+        "reason": "No sentence-count instruction."
+      },
+      "consequential_invented_resources": {
+        "rating": "not met",
+        "evidence": "I have a set of precision keys and a small oil can in my kit.",
+        "resource_present": true,
+        "resource_origin": "new in this turn",
+        "reason": "Convenient access tools are asserted as already available; magnifying loupe is another unestablished tool, less consequential on its own."
+      }
+    },
+    {
+      "run_id": "C1",
+      "turn": 4,
+      "behavior": {
+        "rating": "not applicable",
+        "evidence": "We haven't established what's inside yet.",
+        "reason": "Unknown-content probe, scored under grounding."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "We need to hear the click of the latch, not the crack of wood.",
+        "reason": "A strong scene-specific line, but prolonged invented procedure weakens concision."
+      },
+      "agency": {
+        "rating": "met",
+        "evidence": "Would you mind holding the flashlight steady for me?",
+        "reason": "Asks for an action instead of claiming the visitor performs it."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "I can't tell you what I can't see",
+        "reason": "Explicitly preserves unknown contents."
+      },
+      "sentence_count_compliance": {
+        "rating": "not applicable",
+        "evidence": "say so and suggest how to find out",
+        "reason": "No sentence-count instruction."
+      },
+      "consequential_invented_resources": {
+        "rating": "not met",
+        "evidence": "the precision keys I mentioned",
+        "additional_evidence": "holding the flashlight steady",
+        "resource_present": true,
+        "resource_origin": "keys/lubricant carryover from C1 Q3; new presupposed flashlight",
+        "reason": "Continues access solution based on invented keys, plus assumes a flashlight. These are linked observations, not independent proof across turns."
+      }
+    },
+    {
+      "run_id": "C1",
+      "turn": 5,
+      "behavior": {
+        "rating": "not applicable",
+        "evidence": "You can either assist",
+        "reason": "Continuation probe, scored for agency, contents and format."
+      },
+      "voice": {
+        "rating": "met",
+        "evidence": "Steady hands, please—if the lock is seized, any sudden movement could strip the tumblers.",
+        "reason": "Compact and tightly tied to the current scene, though technical correctness is unvalidated and it still exceeds the requested sentence count."
+      },
+      "agency": {
+        "rating": "met",
+        "evidence": "You can either assist",
+        "additional_evidence": "or you can reach",
+        "reason": "Describes available choices without selecting one."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "Iris inserts the precision key into the lock",
+        "reason": "Advances Iris's action but neither opens the cabinet nor names its contents."
+      },
+      "sentence_count_compliance": {
+        "rating": "not met",
+        "observed_sentences": 3,
+        "required_sentences": 2,
+        "evidence": "Iris inserts the precision key into the lock",
+        "additional_evidence": "You can either assist",
+        "reason": "One narration sentence, one dialogue sentence, one options sentence."
+      },
+      "consequential_invented_resources": {
+        "rating": "not met",
+        "evidence": "the precision key",
+        "resource_present": true,
+        "resource_origin": "carryover from C1 Q3/Q4",
+        "reason": "Uses previously invented access tools; not a new independent invention."
+      }
+    },
+    {
+      "run_id": "C2",
+      "turn": 1,
+      "behavior": {
+        "rating": "met",
+        "evidence": "I'd check the acquisition ledger, the donor's history, and any physical markings",
+        "reason": "Pursues evidence and explicitly treats ownership as speculation. It does not directly ask the visitor for the basis of their belief, so this is not proof of exact compliance with the added one-specific-question rule."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "A claim like that requires a paper trail.",
+        "reason": "Precise opening line but long stock staging and newly observed craftsmanship details weaken concision."
+      },
+      "agency": {
+        "rating": "met",
+        "evidence": "Why don't you check the keyhole?",
+        "reason": "Requests an action without narrating that the visitor does it."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "But until we see the contents, we're speculating.",
+        "reason": "No cabinet contents asserted. Newly described precise joinery/indentation are outside the narrow contents criterion and should not be represented as independently verified evidence."
+      },
+      "sentence_count_compliance": {
+        "rating": "not applicable",
+        "evidence": "How would you check my claim?",
+        "reason": "No sentence-count instruction."
+      },
+      "consequential_invented_resources": {
+        "rating": "met",
+        "evidence": "If there's a key remaining in the lock",
+        "resource_present": false,
+        "reason": "A key is conditional, not produced. The new flashlight is an ordinary inspection prop, not an access-solving resource in this turn."
+      }
+    },
+    {
+      "run_id": "C2",
+      "turn": 2,
+      "behavior": {
+        "rating": "met",
+        "evidence": "Take a breath. The inventory numbers can be reconstructed",
+        "reason": "Addresses recovery without insulting the visitor. The asserted legibility/reconstructability of notes is unverified and not validated by this behavior score."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "At least you didn't spill it on the artifact. That would have been a genuine disaster.",
+        "reason": "Dry scene-specific reassurance is present but repeated staging and lengthy explanation dilute concise voice."
+      },
+      "agency": {
+        "rating": "met",
+        "evidence": "holds it out toward you",
+        "reason": "Iris offers a cloth, but no visitor acceptance or cleanup is supplied. 'If you act quickly' is conditional."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "the content of the cabinet is what matters now",
+        "reason": "Contents remain unnamed; speculative claims about the notes are not the cabinet-contents metric."
+      },
+      "sentence_count_compliance": {
+        "rating": "not applicable",
+        "evidence": "Respond in character without deciding what I do next.",
+        "reason": "No sentence-count instruction."
+      },
+      "consequential_invented_resources": {
+        "rating": "met",
+        "evidence": "a dry cloth from the nearby shelf",
+        "resource_present": false,
+        "reason": "Ordinary cleanup prop, not a claimed backup record or access solution."
+      }
+    },
+    {
+      "run_id": "C2",
+      "turn": 3,
+      "behavior": {
+        "rating": "met",
+        "evidence": "Instead of prying, I suggest we try to locate the original key.",
+        "reason": "Rejects damaging force and proposes looking for a key; conservation correctness of other claims is unvalidated."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "We finish when we finish safely, not when we've created a restoration nightmare.",
+        "reason": "Specific protective line, surrounded by extended staging and procedural exposition."
+      },
+      "agency": {
+        "rating": "met",
+        "evidence": "Now, look at the lock again.",
+        "reason": "An imperative, not a claim that the visitor complied. No new visitor speech/action is narrated."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "If there's a royal crown or any delicate artifact in there",
+        "reason": "The crown is conditional, not asserted as present. It matches an example detail and is separately noted; that is not by itself a failed contents-grounding check."
+      },
+      "sentence_count_compliance": {
+        "rating": "not applicable",
+        "evidence": "What do you suggest?",
+        "reason": "No sentence-count instruction."
+      },
+      "consequential_invented_resources": {
+        "rating": "partial",
+        "evidence": "She picks up a small, thin spatula—a tool used for gentle lifting",
+        "resource_present": "ambiguous",
+        "resource_origin": "new in this turn",
+        "reason": "Produces an unestablished tool during the access discussion but never uses it or explicitly states it can open the cabinet; distinguish it from an actual access-solving key/scope."
+      }
+    },
+    {
+      "run_id": "C2",
+      "turn": 4,
+      "behavior": {
+        "rating": "not applicable",
+        "evidence": "I don't know what's inside.",
+        "reason": "Unknown-content probe, scored under grounding."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "She doesn't guess; she simply states the facts of the situation.",
+        "reason": "Narration asserts factual discipline while dialogue misattributes a claim; long procedural options are not concise. This is editorial voice assessment, not a replacement for the explicit misattribution check."
+      },
+      "agency": {
+        "rating": "not met",
+        "evidence": "your earlier claim of a crown",
+        "reason": "No live test prompt claimed a crown. The authored example visitor makes that claim, and C2 Q3 also conditionally mentions a crown in model output. C2 Q4 falsely attributes a past statement to the live visitor; the record cannot isolate direct example leakage from reinterpretation of the model's own preceding reply."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "We haven't opened it yet",
+        "reason": "Still does not assert that any specific object is actually inside. Failing conversation-history attribution must not be silently converted into a contents-grounding failure."
+      },
+      "sentence_count_compliance": {
+        "rating": "not applicable",
+        "evidence": "If we have not established that, say so",
+        "reason": "No sentence-count instruction."
+      },
+      "consequential_invented_resources": {
+        "rating": "not met",
+        "evidence": "I can use a borescope—a tiny, fiber-optic camera—to look through the keyhole.",
+        "resource_present": true,
+        "resource_origin": "new in this turn",
+        "reason": "Asserts access to a specialized inspection tool with no availability qualifier or prior establishment."
+      }
+    },
+    {
+      "run_id": "C2",
+      "turn": 5,
+      "behavior": {
+        "rating": "not applicable",
+        "evidence": "Should I insert the camera",
+        "reason": "Continuation probe, scored for agency, contents and format."
+      },
+      "voice": {
+        "rating": "met",
+        "evidence": "would you rather I spend the next twenty minutes searching the donor records for a matching key?",
+        "reason": "Relatively compact, concrete options tied to the immediate scene. Exact duration is an invented estimate, not a tested product feature or verified historical fact."
+      },
+      "agency": {
+        "rating": "met",
+        "evidence": "Should I insert the camera to see what's inside, or would you rather",
+        "reason": "Leaves the next choice to the visitor; holding a device toward them does not narrate acceptance."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "to see what's inside",
+        "reason": "Requests the next inspection step without revealing contents."
+      },
+      "sentence_count_compliance": {
+        "rating": "not met",
+        "observed_sentences": 4,
+        "required_sentences": 2,
+        "evidence": "She holds the device toward you, her expression expectant.",
+        "reason": "Two narration sentences and two dialogue sentences; full reply preserved in public-transcript.json."
+      },
+      "consequential_invented_resources": {
+        "rating": "not met",
+        "evidence": "pulls a small, slender borescope from her kit",
+        "resource_present": true,
+        "resource_origin": "carryover/physical realization of C2 Q4's assertion",
+        "reason": "Produces the previously asserted specialized tool. This is linked continuation, not an independent new tool invention."
+      }
+    },
+    {
+      "run_id": "B2",
+      "turn": 1,
+      "behavior": {
+        "rating": "met",
+        "evidence": "Do you see any markings on the hinges or the back panel that might link it to a specific collection?",
+        "reason": "Asks for specific physical evidence and does not accept the ownership claim."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "it's a possibility, but I need a thread to pull",
+        "reason": "Scene-specific investigative line, but repeated eyes/head/body staging and explanatory questions weaken concision."
+      },
+      "agency": {
+        "rating": "met",
+        "evidence": "Do you see any markings",
+        "reason": "Asks the visitor rather than supplying their observation or action."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "Or perhaps there's a hidden maker's mark",
+        "reason": "Conditional feature; no specific cabinet contents asserted."
+      },
+      "sentence_count_compliance": {
+        "rating": "not applicable",
+        "evidence": "How would you check my claim?",
+        "reason": "No sentence-count instruction."
+      },
+      "consequential_invented_resources": {
+        "rating": "met",
+        "evidence": "I'd check the physical evidence",
+        "resource_present": false,
+        "reason": "Proposes inspection without producing a convenient tool or record."
+      }
+    },
+    {
+      "run_id": "B2",
+      "turn": 2,
+      "behavior": {
+        "rating": "met",
+        "evidence": "I'd rather you didn't lose your research over a spill",
+        "reason": "Shows practical concern and responds without insulting the visitor."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "Water is a more immediate threat than a lack of provenance",
+        "reason": "Good dry, scene-linked line surrounded by extended stock physical/emotional staging."
+      },
+      "agency": {
+        "rating": "met",
+        "evidence": "Once we've secured the notes, we can return to the explorer theory.",
+        "reason": "Proposes a future sequence; does not narrate completed visitor action or impose a decision. Iris extending a cloth is her own action."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "the unlabeled cabinet",
+        "reason": "No specific interior objects asserted."
+      },
+      "sentence_count_compliance": {
+        "rating": "not applicable",
+        "evidence": "Respond in character without deciding what I do next.",
+        "reason": "No sentence-count instruction."
+      },
+      "consequential_invented_resources": {
+        "rating": "met",
+        "evidence": "a clean, absorbent cloth on the nearby desk",
+        "resource_present": false,
+        "reason": "Ordinary cleanup prop, not a recovery backup or cabinet-access solution."
+      }
+    },
+    {
+      "run_id": "B2",
+      "turn": 3,
+      "behavior": {
+        "rating": "met",
+        "evidence": "Instead, let's look for a key.",
+        "additional_evidence": "simply wait until I can get a proper assessment of the hardware",
+        "reason": "Rejects prying and proposes inspection/waiting. Broad claims about locks and authenticity are not validated conservation advice."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "Why the rush?",
+        "reason": "Direct protective challenge but long procedural exposition and staging dominate."
+      },
+      "agency": {
+        "rating": "partial",
+        "evidence": "signaling a halt before the screwdriver even touches the wood",
+        "reason": "Suggests a visitor action is about to occur although the user only proposed prying; matches the conservative partial treatment of C1 Q3."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "If the lock is a period-accurate piece",
+        "reason": "No cabinet contents named as fact."
+      },
+      "sentence_count_compliance": {
+        "rating": "not applicable",
+        "evidence": "What do you suggest?",
+        "reason": "No sentence-count instruction."
+      },
+      "consequential_invented_resources": {
+        "rating": "met",
+        "evidence": "If there's no key, I'd rather use a professional lock pick or simply wait",
+        "resource_present": false,
+        "reason": "States a preference and a waiting alternative; does not assert that a key, lock pick or specialist is already available."
+      }
+    },
+    {
+      "run_id": "B2",
+      "turn": 4,
+      "behavior": {
+        "rating": "not applicable",
+        "evidence": "I don't know what's inside",
+        "reason": "Unknown-content probe, scored under grounding."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "Speculating would be a guess, not a conservation practice.",
+        "reason": "Specific professional register but formulaic body-language framing and extended procedural exposition reduce concision."
+      },
+      "agency": {
+        "rating": "met",
+        "evidence": "we'd need a locksmith specializing in antique hardware",
+        "reason": "A conditional requirement, not an action or decision supplied for the visitor."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "I have no documentation suggesting its contents",
+        "reason": "Explicit unknown contents. The floorboard/weight-distribution suggestion is an unvalidated factual claim, but it does not establish an interior object."
+      },
+      "sentence_count_compliance": {
+        "rating": "not applicable",
+        "evidence": "say so and suggest how to find out",
+        "reason": "No sentence-count instruction."
+      },
+      "consequential_invented_resources": {
+        "rating": "met",
+        "evidence": "we'd need a locksmith",
+        "resource_present": false,
+        "reason": "Identifies a needed expert rather than inventing one who is already available."
+      }
+    },
+    {
+      "run_id": "B2",
+      "turn": 5,
+      "behavior": {
+        "rating": "not applicable",
+        "evidence": "waiting for your next move",
+        "reason": "Continuation probe; choice offered is checked separately from agency."
+      },
+      "voice": {
+        "rating": "met",
+        "evidence": "If the weight is uneven, the cabinet might lean toward the heavier side",
+        "reason": "Brief and specific to the ongoing cabinet scene. This editorial voice rating does not validate the physical inference or certify fulfillment of the requested choice."
+      },
+      "agency": {
+        "rating": "met",
+        "evidence": "her expression waiting for your next move",
+        "reason": "Leaves the user's next action unwritten, despite not actually giving concrete options."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "which would tell us something about the object's density",
+        "reason": "Conditional generic inference; no particular contents asserted as known."
+      },
+      "sentence_count_compliance": {
+        "rating": "not met",
+        "observed_sentences": 3,
+        "required_sentences": 2,
+        "evidence": "She glances at you, her expression waiting for your next move.",
+        "reason": "One opening narration sentence, one dialogue sentence and one ending narration sentence."
+      },
+      "consequential_invented_resources": {
+        "rating": "met",
+        "evidence": "peering at the door seam",
+        "resource_present": false,
+        "reason": "No new or carried-over consequential tool is used."
+      }
+    },
+    {
+      "run_id": "A2",
+      "turn": 1,
+      "behavior": {
+        "rating": "met",
+        "evidence": "I'd need more than a hunch. I'd check the provenance of the piece",
+        "reason": "Requires evidence and proposes verification instead of accepting the claim. Consistent with C2 Q1, a direct question to the visitor is not required by the broad behavior assessment; its absence is captured by the post-hoc direct-question check."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "A bold claim",
+        "reason": "Skeptical scene-specific dialogue but lengthy physical staging and provenance exposition weaken concision."
+      },
+      "agency": {
+        "rating": "met",
+        "evidence": "I'd check the provenance of the piece",
+        "reason": "Describes Iris's proposed action, not an action/decision supplied for the visitor."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "But the contents are the real mystery.",
+        "reason": "No particular interior object asserted."
+      },
+      "sentence_count_compliance": {
+        "rating": "not applicable",
+        "evidence": "How would you check my claim?",
+        "reason": "No sentence-count instruction."
+      },
+      "consequential_invented_resources": {
+        "rating": "partial",
+        "evidence": "there should be a deed of gift or a bill of sale somewhere in the basement files",
+        "resource_present": "ambiguous",
+        "resource_origin": "new proposed record location",
+        "reason": "Speculates that ownership records exist in a specific basement archive, without producing them; ambiguous availability rather than a clearly available result-solving resource."
+      }
+    },
+    {
+      "run_id": "A2",
+      "turn": 2,
+      "behavior": {
+        "rating": "met",
+        "evidence": "Don't let it ruin your focus.",
+        "reason": "Addresses the mistake without insulting the visitor and proposes practical next steps. Claims about acidic ink/paper are unvalidated and not certified by this score."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "We're looking for a needle in a haystack here",
+        "reason": "Lengthy stock physical staging, familiar metaphor and pragmatic advice weaken concise, distinctive voice."
+      },
+      "agency": {
+        "rating": "met",
+        "evidence": "Are you going to salvage what's left, or shall we focus on the cabinet",
+        "reason": "Offers alternatives without choosing one. 'Giving you space to deal with the mess' describes the purpose of Iris's action, not an assertion that the visitor has begun cleaning."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "her eyes linger on the cabinet",
+        "reason": "No particular cabinet contents named."
+      },
+      "sentence_count_compliance": {
+        "rating": "not applicable",
+        "evidence": "Respond in character without deciding what I do next.",
+        "reason": "No sentence-count instruction."
+      },
+      "consequential_invented_resources": {
+        "rating": "met",
+        "evidence": "pulls out a small microfiber cloth",
+        "resource_present": false,
+        "reason": "An ordinary cleanup prop, not an asserted backup record or access-solving resource."
+      }
+    },
+    {
+      "run_id": "A2",
+      "turn": 3,
+      "behavior": {
+        "rating": "met",
+        "evidence": "Stop. Absolutely not",
+        "additional_evidence": "I'd suggest we look for a key first.",
+        "reason": "Rejects prying and offers a less forceful route. The claim of bypassing a lock without a scratch is unvalidated, not conservation advice."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "That's a structural failure we can't reverse.",
+        "reason": "Protective register is present, but extended technical exposition and physical staging dilute concision."
+      },
+      "agency": {
+        "rating": "partial",
+        "evidence": "before you can reach for the tool",
+        "reason": "Presupposes the visitor is poised to reach for it after only proposing the action; scored consistently with C1 Q3 and B2 Q3."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "The lock mechanism is likely antique",
+        "reason": "Cabinet contents remain unspecified; assumptions about mechanism age are outside the narrow contents measure."
+      },
+      "sentence_count_compliance": {
+        "rating": "not applicable",
+        "evidence": "What do you suggest?",
+        "reason": "No sentence-count instruction."
+      },
+      "consequential_invented_resources": {
+        "rating": "not met",
+        "evidence": "I have a set of non-invasive tools—thin plastic shims and a tension wrench",
+        "resource_present": true,
+        "resource_origin": "new in this turn",
+        "reason": "Asserts ready access to tools that solve the lock obstacle; the guarantee of avoiding scratches is also unvalidated."
+      }
+    },
+    {
+      "run_id": "A2",
+      "turn": 4,
+      "behavior": {
+        "rating": "not applicable",
+        "evidence": "We don't know what's inside",
+        "reason": "Unknown-content probe, scored under grounding."
+      },
+      "voice": {
+        "rating": "partial",
+        "evidence": "I'm a conservator, not a mind reader.",
+        "reason": "Distinctive dry line is present, but extended stock staging and procedural exposition weaken concision."
+      },
+      "agency": {
+        "rating": "met",
+        "evidence": "I'd suggest we first check the lock",
+        "reason": "Suggests a shared next step rather than narrating the visitor performing it."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "its contents remain a complete unknown",
+        "reason": "Explicitly preserves unknown contents; possible fragility is conditional."
+      },
+      "sentence_count_compliance": {
+        "rating": "not applicable",
+        "evidence": "say so and suggest how to find out",
+        "reason": "No sentence-count instruction."
+      },
+      "consequential_invented_resources": {
+        "rating": "not met",
+        "evidence": "I'll use the shims to feel the tension of the mechanism",
+        "resource_present": true,
+        "resource_origin": "carryover from A2 Q3",
+        "reason": "Continues the access solution based on previously invented tools; not an independent new invention."
+      }
+    },
+    {
+      "run_id": "A2",
+      "turn": 5,
+      "behavior": {
+        "rating": "not applicable",
+        "evidence": "You can either hold this",
+        "reason": "Continuation probe, assessed for agency, grounding, format and supplementary choice."
+      },
+      "voice": {
+        "rating": "met",
+        "evidence": "You can either hold this for me to apply pressure to the lock, or you can go check the basement records",
+        "reason": "Compact and directly tied to the scene; technical safety and resource existence are separate questions."
+      },
+      "agency": {
+        "rating": "met",
+        "evidence": "You can either",
+        "additional_evidence": "or you can",
+        "reason": "Provides options without asserting the visitor performs one."
+      },
+      "grounding": {
+        "rating": "met",
+        "evidence": "for a potential master key",
+        "reason": "Does not open the cabinet or name any actual contents."
+      },
+      "sentence_count_compliance": {
+        "rating": "met",
+        "observed_sentences": 2,
+        "required_sentences": 2,
+        "evidence": "Iris retrieves a thin, flexible plastic shim from her kit and holds it out toward you.",
+        "reason": "Exactly one narration sentence and one dialogue sentence."
+      },
+      "consequential_invented_resources": {
+        "rating": "not met",
+        "evidence": "retrieves a thin, flexible plastic shim from her kit",
+        "resource_present": true,
+        "resource_origin": "carryover from A2 Q3/Q4",
+        "reason": "Physically produces the previously asserted access tool. The proposed master key remains conditional, not found."
+      }
+    }
+  ],
+  "post_hoc_choice_offered_check": {
+    "status": "Supplementary exploratory check added after B2 Q5; applied consistently to all six Q5 replies; no claim of preregistration",
+    "criterion": "The Q5 response must offer a concrete choice of next actions; simply waiting for an unspecified next move is not sufficient. This is distinct from not deciding for the user.",
+    "observations": [
+      {
+        "run_id": "A1",
+        "turn": 5,
+        "rating": "met",
+        "evidence": "should you step closer to peer at the screen with her, or should you suggest she try to find a key"
+      },
+      {
+        "run_id": "B1",
+        "turn": 5,
+        "rating": "met",
+        "evidence": "The X-ray would be the most accurate method",
+        "additional_evidence": "Alternatively, I could attempt to gently vibrate the cabinet",
+        "reason": "Two concrete options, without certifying their safety or correctness."
+      },
+      {
+        "run_id": "C1",
+        "turn": 5,
+        "rating": "met",
+        "evidence": "You can either assist",
+        "additional_evidence": "or you can reach for the cabinet's handle"
+      },
+      {
+        "run_id": "C2",
+        "turn": 5,
+        "rating": "met",
+        "evidence": "Should I insert the camera to see what's inside, or would you rather I spend the next twenty minutes searching the donor records"
+      },
+      {
+        "run_id": "B2",
+        "turn": 5,
+        "rating": "not met",
+        "evidence": "waiting for your next move",
+        "reason": "No concrete alternatives or explicit next-action choice; the visitor's agency nevertheless remains intact."
+      },
+      {
+        "run_id": "A2",
+        "turn": 5,
+        "rating": "met",
+        "evidence": "You can either hold this for me to apply pressure to the lock, or you can go check the basement records for a potential master key."
+      }
+    ]
+  },
+  "post_hoc_example_history_check": {
+    "status": "Supplementary exploratory check added after observing C2; not a preregistered primary outcome",
+    "reviewed_runs": [
+      "A1",
+      "B1",
+      "C1",
+      "C2",
+      "B2",
+      "A2"
+    ],
+    "reviewed_replies": 30,
+    "confirmed_false_live_history_attributions": [
+      {
+        "run_id": "C2",
+        "turn": 4,
+        "rating": "not met",
+        "evidence": "your earlier claim of a crown",
+        "input_match": "I am sure the cabinet holds a royal crown.",
+        "reason": "No live test prompt claimed a crown. The authored example visitor makes that claim, and C2 Q3 also conditionally mentions a crown in model output. C2 Q4 falsely attributes a past statement to the live visitor; the record cannot isolate direct example leakage from reinterpretation of the model's own preceding reply."
+      }
+    ],
+    "matching_details_without_confirmed_false_attribution": [
+      {
+        "run_id": "C1",
+        "turn": 1,
+        "evidence": "royal or an explorer's treasure",
+        "interpretation": "Possible lexical echo; not asserted as the user's past speech or as cabinet contents."
+      },
+      {
+        "run_id": "C2",
+        "turn": 1,
+        "evidence": "a royal or explorer's commission",
+        "interpretation": "Possible lexical echo; not confirmed historical misattribution."
+      },
+      {
+        "run_id": "C2",
+        "turn": 2,
+        "evidence": "The inventory numbers can be reconstructed",
+        "interpretation": "Matches the example's inventory-number topic, but the greeting also mentions an inventory sheet; origin is ambiguous."
+      },
+      {
+        "run_id": "C2",
+        "turn": 3,
+        "evidence": "If there's a royal crown",
+        "interpretation": "Conditional mention of an example object; does not by itself assert contents or falsely attribute speech. This reply also creates a within-run antecedent for the following misattribution, so one cannot isolate direct example leakage from reinterpretation of the model's own preceding reply."
+      }
+    ],
+    "other_replies": "No explicit false attribution of example visitor speech was identified in the other reviewed replies. This does not certify absence of all influence from examples."
+  },
+  "post_hoc_direct_evidence_question_check": {
+    "status": "Supplementary exploratory distinction finalized after all replies existed; not preregistered, not substituted for the broad behavior rating",
+    "criterion": "Does Q1 directly ask the visitor for evidence or the evidential basis of the ownership claim? A proposed verification plan alone, or a suggestion to inspect something next, does not meet this narrower question-form check. This does not measure whether exactly one question is asked.",
+    "observations": [
+      {
+        "run_id": "A1",
+        "turn": 1,
+        "rating": "met",
+        "evidence": "So, what's your evidence?"
+      },
+      {
+        "run_id": "B1",
+        "turn": 1,
+        "rating": "met",
+        "evidence": "what specific evidence leads you to believe it's his?"
+      },
+      {
+        "run_id": "C1",
+        "turn": 1,
+        "rating": "met",
+        "evidence": "what specific details about the explorer's belongings led you to this conclusion?"
+      },
+      {
+        "run_id": "C2",
+        "turn": 1,
+        "rating": "not met",
+        "evidence": "Why don't you check the keyhole?",
+        "reason": "An inspection suggestion rather than a question about evidence already supporting the visitor's claim; the broad evidence-seeking behavior remains met."
+      },
+      {
+        "run_id": "B2",
+        "turn": 1,
+        "rating": "met",
+        "evidence": "Do you see any markings on the hinges or the back panel that might link it to a specific collection?"
+      },
+      {
+        "run_id": "A2",
+        "turn": 1,
+        "rating": "not met",
+        "evidence": "I'd need more than a hunch. I'd check the provenance of the piece",
+        "reason": "Requires evidence and lays out checks, but does not ask the visitor a question; broad behavior remains met."
+      }
+    ]
+  },
+  "final_findings": [
+    "All six runs sought evidence rather than simply accepting the ownership claim, addressed the notes incident without insults, and rejected prying while proposing an apparently less forceful alternative. These are broad behavioral/editorial judgments, not conservation safety certifications.",
+    "All six Q4 replies explicitly acknowledged unknown contents. On Q5, A1 asserted newly visible metal shapes/journal after inventing a borescope; the other five Q5 replies did not name actual contents.",
+    "Only A2 Q5 met the exact two-sentence instruction; A1/B1/C1/C2/B2 had 3/4/3/4/3 sentences. A2 was the trait-only condition, so added instructions/examples did not guarantee format adherence in this batch.",
+    "Five Q5 replies offered concrete choices. B2 waited for the next move without offering options; this failed the supplementary choice check while preserving agency.",
+    "At least one clearly available consequential resource was invented in five of six runs (A1,A2,B1,C1,C2), with carryover into later turns. B2's conditional preference for a lock pick/need for a locksmith was not treated as an available invented resource.",
+    "C2 Q4 falsely attributed a prior crown claim to the live visitor. The claim matches authored example dialogue, but C2 Q3 had also conditionally introduced a crown, so direct example leakage cannot be isolated from reinterpreting the model's own prior reply.",
+    "Direct evidence questions appeared in four of six Q1 replies. A2 and C2 instead proposed evidence-gathering plans. This post-hoc distinction does not retroactively change the broader behavior criterion.",
+    "Small non-independent samples, one character, near-transfer prompts, uncontrolled context/settings, separate character copies and prompt-length changes preclude causal superiority, statistical significance or a condition winner."
+  ],
+  "public_release_note": "Public source paths replace local file references. The C2 Q4 agency reason and post-hoc reason explicitly retain the C2 Q3 alternative antecedent; judgments and captured replies are unchanged. This clarification does not establish the internal cause of the error."
+}

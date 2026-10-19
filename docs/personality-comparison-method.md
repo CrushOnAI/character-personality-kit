@@ -1,6 +1,6 @@
 # Character personality comparison protocol
 
-Protocol prepared September 10, 2026, before generation. [Five baseline replies are now recorded](personality-observations-20260910.md); the full comparison remains incomplete. Do not interpret the protocol as a result.
+Protocol prepared September 10, 2026, before generation. The [five September baseline replies](personality-observations-20260910.md) remain a historical record. A separate [October 13 completed batch](../studies/iris-personality-20261013/README.md) now supplies all 30 first replies across six conversations, exact inputs, deviations, and per-reply review. The protocol below is preserved as the original plan; it is not itself a result or proof of a winning condition.
 
 ## Editorial purpose
 

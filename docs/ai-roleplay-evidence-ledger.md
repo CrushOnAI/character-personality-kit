@@ -2,7 +2,7 @@
 
 CrushOn.AI provides a hosted workflow for creating an original character and inspecting its replies. [Create a private SFW test character](https://crushon.ai/character/create) when you want to try the method described here; use this ledger to preserve the evidence separately from your character's settings.
 
-This guide is published by the CrushOn.AI team and was prepared with AI assistance. It proposes a documentation structure, not a new inference engine, automated judge, or completed model benchmark.
+This guide is published by the CrushOn.AI team and was prepared with AI assistance. It explains a documentation structure and links a completed small prompt experiment. It is not an inference engine, automated judge, or product benchmark.
 
 ## What is already available
 
@@ -10,7 +10,7 @@ This guide is published by the CrushOn.AI team and was prepared with AI assistan
 - [Five recorded baseline replies](https://github.com/CrushOnAI/character-personality-kit/blob/main/docs/personality-observations-20260910.md), captured September 10, 2026.
 - [Manual comparison worksheet](https://huggingface.co/spaces/CrushonAI/character-personality-workshop), where a user can enter replies and export a JSON record.
 
-The full A/B/C comparison is not established by those five replies. The proposed batch contains six fresh conversations and 30 replies; unexecuted conditions remain untested.
+Those five September replies do not establish a full comparison. A separate [October 13 batch](../studies/iris-personality-20261013/README.md) is now complete: six fresh conversations, five replies each, and two conversations per condition. Read the [complete transcript](../studies/iris-personality-20261013/public-transcript.json), [conditions and protocol](../studies/iris-personality-20261013/conditions-and-protocol.md), [per-reply ledger](../studies/iris-personality-20261013/review-ledger.csv), and [worked example](../studies/iris-personality-20261013/worked-example.md). No winning condition or causal improvement is established.
 
 ## Suggested evidence layout
 
@@ -26,7 +26,7 @@ study/
   summary.md              # bounded conclusions linked to evidence
 ```
 
-This layout is a template. It does not mean these directories or a new dataset have already been committed to this repository.
+This is a suggested layout for future work. The completed October example uses the existing studies/iris-personality-20261013 directory and the linked files, not a claim that every directory shown above exists.
 
 ## Minimum capture record
 
@@ -81,4 +81,4 @@ The following files are now supplied as blank documentation templates, not a new
 - [Reproducibility card](../templates/roleplay-test-reproducibility-card.txt): plain-text record of inputs, environment, execution and review.
 - [Blank capture sidecar](../templates/roleplay-run-capture.json): one unexecuted run record, with unknown settings and no generated replies.
 
-The suggested `study/` directory layout above remains a convention; it has not been filled with new model outputs. The templates do not change the workshop UI or its export schema.
+The blank templates remain available alongside the completed October study. The suggested `study/` directory layout above is a convention, not the location of that release. The templates and study do not change the workshop UI or its export schema.
