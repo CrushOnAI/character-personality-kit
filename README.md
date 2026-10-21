@@ -69,4 +69,6 @@ Read the [character creator comparison reference](docs/ai-character-creators-com
 
 ## Recording AI roleplay evidence
 
+For a local pre-review check, use the [JavaScript roleplay log validator](tools/roleplay-log-validator/README.md). It flags missing turns, duplicate records, and mismatched input versions before reviewing replies. Its fixtures are synthetic software examples, not new model results, and it does not grade prose or authenticate captures.
+
 Use the [AI Roleplay Evidence Ledger](docs/ai-roleplay-evidence-ledger.md), [copyable reproducibility card](templates/roleplay-test-reproducibility-card.txt), and [blank capture sidecar](templates/roleplay-run-capture.json) to keep exact inputs, complete replies, and review judgments separate. The blank files remain templates. For a completed example, use the [October 13 study](studies/iris-personality-20261013/README.md), its [30-reply transcript](studies/iris-personality-20261013/public-transcript.json), [review ledger](studies/iris-personality-20261013/review-ledger.csv), and [worked entry](studies/iris-personality-20261013/worked-example.md). These records do not change the workshop UI or export schema.

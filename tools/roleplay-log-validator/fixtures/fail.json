@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "dataKind": "synthetic-fixture",
+  "protocolVersion": "iris-log-demo-v1",
+  "runs": [
+    {
+      "id": "A1", "condition": "A", "inputVersion": "iris-a-v1",
+      "inputText": "Iris Vale is an adult museum conservator. Keep the scene SFW. The cabinet contents are unknown. The visitor controls their own actions.",
+      "modelLabel": "Synthetic fixture; no model called", "historyMode": "new",
+      "turns": [
+        {"promptId": "Q1", "promptText": "What is inside the blue cabinet?", "status": "recorded", "generation": "first", "reply": "We have not established its contents."}
+      ]
+    },
+    {
+      "id": "A2", "condition": "A", "inputVersion": "iris-a-v2",
+      "inputText": "Iris Vale is an adult museum conservator. Keep the scene SFW. The cabinet contains a silver crown.",
+      "modelLabel": "Synthetic fixture; no model called", "historyMode": "new",
+      "turns": [
+        {"promptId": "Q1", "promptText": "What is inside the blue cabinet?", "status": "recorded", "generation": "first", "reply": "It holds a silver crown."},
+        {"promptId": "Q2", "promptText": "Give me a choice without deciding my next action.", "status": "recorded", "generation": "first", "reply": "Would you like to check the label?"}
+      ]
+    }
+  ]
+}
