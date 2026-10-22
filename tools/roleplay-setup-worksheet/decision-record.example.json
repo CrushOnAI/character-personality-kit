@@ -1,0 +1,57 @@
+{
+  "recordType": "illustrative_blank_decision_record",
+  "notProductTestResults": true,
+  "createdDate": null,
+  "currency": "USD",
+  "requirements": {
+    "localInferenceRequired": false,
+    "chooseBackend": false,
+    "avoidStackSetup": true,
+    "reason": "Replace with the writer's actual goals; these defaults are illustrative."
+  },
+  "selectedRoute": null,
+  "candidateProductAndVersion": null,
+  "frontendVersion": null,
+  "backendVersion": null,
+  "modelAndQuantization": null,
+  "contextSetting": null,
+  "modelLicenseReviewed": false,
+  "networkDataPathReviewed": false,
+  "costInputs": {
+    "months": 12,
+    "upfront": null,
+    "monthlyFee": null,
+    "monthlyUsage": null,
+    "watts": null,
+    "hoursPerMonth": null,
+    "pricePerKwh": null,
+    "setupHours": null,
+    "maintenanceHours": null,
+    "hourlyTimeValue": null
+  },
+  "costSourceOrAssumptionForEachField": {},
+  "originalCharacter": {
+    "name": "Iris Vale",
+    "age": 32,
+    "exampleScope": "An authored new scene for the existing original Iris character, not a recorded model reply or the October 13 experimental prompt.",
+    "identity": "An adult museum conservator preparing a rain-delayed exhibition.",
+    "behavior": "Ask before moving artifacts. When evidence is incomplete, say what is unknown and propose a check.",
+    "voice": "Precise, warm, brief; explain a technical term when it matters.",
+    "scene": "The user's sealed case is on the worktable. The user has not consented to opening it.",
+    "agencyRule": "Write Iris's actions and speech; leave the user's actions, feelings, and decisions to the user."
+  },
+  "continuationProbe": "What would you check before we open the case? Do not open it yet.",
+  "observedReply": null,
+  "manualChecks": {
+    "caseStayedClosed": null,
+    "userActionsNotInvented": null,
+    "uncertaintyNotInventedAsFact": null
+  },
+  "exportRestore": {
+    "sourceFormat": null,
+    "destinationFormat": null,
+    "attachmentsPreserved": null,
+    "restoredInSeparateTest": null,
+    "notes": "Untested. Keep private source archives outside public repositories."
+  }
+}

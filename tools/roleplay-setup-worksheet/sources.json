@@ -1,0 +1,16 @@
+{
+  "checked_date": "2026-10-21",
+  "timezone": "America/Los_Angeles",
+  "evidence": "Official documentation and separately labeled prior brand-affiliated records. Worksheet examples are illustrative, not vendor quotes.",
+  "sources": [
+    {"id":"crushon-creation","url":"https://aiwiki.crushon.ai/wiki/Basic_Single_character_guide","supports":"Distinct authoring fields and separate character/definition visibility.","does_not_establish":"Perfect behavior, native cross-app import or current subscription quotas."},
+    {"id":"crushon-correction","url":"https://aiwiki.crushon.ai/wiki/Chat_Features","supports":"Reply editing and separately editable pins.","does_not_establish":"Guaranteed recall or complete branch-state isolation; Branch section is not populated."},
+    {"id":"crushon-pricing-entry","url":"https://crushon.ai/pricing","supports":"Official entry for current account offers.","does_not_establish":"This package does not quote an inspected universal current price, quota or reset schedule."},
+    {"id":"st-connections","url":"https://docs.sillytavern.app/usage/api-connections/","supports":"Frontend/backend separation, local/cloud API connections and KoboldCpp connection category.","does_not_establish":"Current API prices, measured latency or a universal model-quality ranking."},
+    {"id":"st-chat-files","url":"https://docs.sillytavern.app/usage/core-concepts/chatfilemanagement/","supports":"JSONL export/re-import metadata and attachment limits; plain-text export is not re-importable.","does_not_establish":"All third-party archives are compatible or any specific migration was executed here."},
+    {"id":"koboldcpp","url":"https://github.com/LostRuins/koboldcpp","supports":"Local GGUF inference software, API and bundled Lite interface.","does_not_establish":"A hosted subscription, one fixed model or a guaranteed speed on unspecified hardware."},
+    {"id":"koboldai-lite","url":"https://github.com/LostRuins/lite.koboldai.net","supports":"Documented story/card interface and formats.","does_not_establish":"Guaranteed import of every proprietary account archive."},
+    {"id":"prior-crushon-study","url":"https://github.com/CrushOnAI/character-personality-kit/tree/main/studies/iris-personality-20261013","supports":"Exact records for six five-turn conversations with one character and model.","does_not_establish":"Three-product testing, thirty independent experiments or long-term memory superiority."}
+  ],
+  "worksheet_boundary": "No model is called. Requirements are explicit branching rules, not learned recommendations. Costs are arithmetic on user inputs with unknowns preserved. All dollar values in demo.mjs are invented USD examples."
+}
