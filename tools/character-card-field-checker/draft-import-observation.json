@@ -1,0 +1,27 @@
+{
+  "status": "one-unsaved-draft-observation",
+  "reviewedAtPacific": "2026-10-21T22:44:01-07:00",
+  "timezone": "America/Los_Angeles",
+  "source": "Recorded authenticated creation-form observation; source fixture independently inspected afterward.",
+  "screenURL": "https://crushon.ai/character/create",
+  "importLabel": "Character Photo&File",
+  "importGuidance": "you can import existing character PNG/JSON file",
+  "fixture": "fixtures/iris-original-v2.json",
+  "fixtureSHA256": "4dac7daa6e1f3f3e81db40eca162a6774d5a7408e72bbfb1aef32f7f83b8229e",
+  "fileCount": 1,
+  "fields": [
+    {"destination": "Name", "observation": "Iris Vale populated"},
+    {"destination": "Greeting", "observation": "Populated; complete byte-for-byte comparison not recorded"},
+    {"destination": "Scenario", "observation": "Populated; complete byte-for-byte comparison not recorded"},
+    {"destination": "Introduction", "observation": "Creator notes appeared; UI showed 161 Chars"},
+    {"destination": "Personality", "observation": "Empty; UI showed 0 Chars", "sourcePersonalityCodePoints": 696, "sourceDescription": ""},
+    {"destination": "Age", "observation": "Blank", "limitation": "The source has no dedicated age field. Age appears only in prose; this is not a lost structured age-field result."}
+  ],
+  "selectedVisibility": "Private",
+  "publicDefinitionSelected": "No",
+  "saved": false,
+  "modelReplies": 0,
+  "persistedFieldsVerified": false,
+  "privacyBehaviorVerified": false,
+  "limit": "This is a visual record for one source file in an unsaved draft, not a general mapping specification, complete migration, provider-access test or product reliability result."
+}

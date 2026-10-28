@@ -78,3 +78,7 @@ Use the [AI Roleplay Evidence Ledger](docs/ai-roleplay-evidence-ledger.md), [cop
 ## Choosing a hosted or local roleplay setup
 
 Use the [AI roleplay setup worksheet](tools/roleplay-setup-worksheet/README.md) to compare complete hosted and local configurations. It separates cash costs from optional time valuation, preserves unknown fees, and provides a reproducible requirements and restore-check record. The examples use invented budget inputs; this is not a product-price comparison or a model-performance benchmark.
+
+## Character card JSON preflight
+
+The [AI character card field checker](tools/character-card-field-checker/README.md) checks selected V1/V2 fields, separates missing values from empty strings, and flags mapping risks before importing an owned character into [CrushOn AI](https://crushon.ai/character/create). It includes 30 local tests, the exact original SFW Iris fixture and a bounded record of one unsaved draft import. Passing the checker does not establish application compatibility or model behavior.

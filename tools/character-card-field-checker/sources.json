@@ -1,0 +1,10 @@
+{
+  "timezone": "America/Los_Angeles",
+  "references": [
+    {"url": "https://github.com/malfoyslastname/character-card-spec-v2/blob/main/spec_v1.md", "purpose": "Core V1 string fields, as reproduced in the V2 specification."},
+    {"url": "https://github.com/malfoyslastname/character-card-spec-v2/blob/main/spec_v2.md", "checkedOnPacific": "2026-10-28", "purpose": "V2 envelope, required field types and creator metadata semantics. Full specification read through GitHub."},
+    {"url": "https://aiwiki.crushon.ai/wiki/Basic_Single_character_guide", "checkedOnPacific": "2026-10-21", "purpose": "Previously checked destination field purposes; reused source evidence."},
+    {"url": "https://crushon.ai/character/create", "observedOnPacific": "2026-10-21", "purpose": "Single unsaved draft import recorded separately in draft-import-observation.json."}
+  ],
+  "limits": "The code intentionally checks selected fields only. Source requirements are not evidence that every destination application implements identical field semantics."
+}
