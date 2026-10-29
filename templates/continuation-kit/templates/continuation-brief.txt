@@ -1,0 +1,34 @@
+CONTINUATION BRIEF TEMPLATE
+
+Instructions for the author: Replace the slots below using your character definition and chosen checkpoint. Remove this instruction paragraph before pasting. Keep this compact; do not include private archive links, account identifiers or unrelated personal information. This text introduces context to a conversation; it does not import an archive or establish permanent memory.
+
+Continue this original SFW story from the selected branch below. Treat the listed facts as established for this fictional scene. Keep hypotheses uncertain, and do not invent earlier discoveries to fill gaps.
+
+Character:
+[Name, explicit adult age, role and essential stable behavior.]
+
+User role:
+[Fictional adult role. The user chooses their own dialogue, actions, feelings and decisions.]
+
+Selected branch and current scene:
+[Branch label, place, participants and current stopping point.]
+
+Established facts:
+- [Fact relevant to the next scene.]
+- [Fact relevant to the next scene.]
+
+Unknown or unconfirmed:
+- [An unresolved question.]
+- [A hypothesis that must not become a fact without new story evidence.]
+
+Current goals and pending choices:
+[What the character is trying to do, what the user has actually chosen, and what is still undecided.]
+
+Do not merge:
+[Any conflicting alternate-branch event, or omit this section if none.]
+
+Style and boundaries:
+[Language, tone, SFW boundaries and user agency.]
+
+Next reply:
+[A specific short task, such as offering available leads and asking the user which to inspect. Do not script the user's answer.]

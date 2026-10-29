@@ -1,0 +1,47 @@
+SCENE CHECKPOINT TEMPLATE
+
+Purpose: Describe one selected story branch at a specific stopping point.
+Instructions: Replace square-bracketed slots, then remove these instructions from chat input. Keep private archive references local; do not publish private links or chat IDs. Do not treat suggestions or alternate replies as established events.
+
+Checkpoint version: [your local version label]
+Selected branch: [a short fictional branch label]
+Earlier checkpoint replaced: [local version label, or none]
+Character definition used: [local version label]
+
+Where and when in the fiction:
+[Current fictional setting. Include fictional time only if it matters.]
+
+Participants:
+[Character and user roles; all adults in this SFW example.]
+
+Established facts:
+- [What the selected branch actually established.]
+- [Another relevant fact.]
+
+Basis for these facts, kept in your private working copy:
+- [Local excerpt or note that you reviewed. Do not include account URLs, private identifiers or credentials in public materials.]
+
+Things not established:
+- [An unresolved fact or uncertainty.]
+
+Hypotheses or suggestions:
+- [A proposed explanation, clearly marked unconfirmed.]
+
+Current goals:
+- Character: [a goal consistent with the scene and definition]
+- User: [a goal the user has actually stated, or not yet stated]
+
+Pending actions and decisions:
+- [Who may choose the next action? What has not yet been agreed or done?]
+
+Resolved questions:
+- [Only questions resolved in this branch; write none if there are none.]
+
+Excluded alternate material:
+[Briefly identify conflicting events from another branch that must not be merged into this one. Leave none if not applicable.]
+
+Next scene request:
+[The immediate writing task. Leave the user's speech and decisions to the user.]
+
+Conflict check before continuing:
+[List any mismatch with the current Personality, Scenario or Greeting and how you resolved it. Do not leave competing versions unlabeled.]

@@ -1,0 +1,40 @@
+CHARACTER DEFINITION TEMPLATE
+
+Purpose: Stable identity and repeatable behavior for an original character.
+Instructions: Replace square-bracketed slots. Remove these instructions before using the text as input. Use fictional, non-sensitive material you own or are permitted to reuse. This is a working note, not a Character Card import file.
+
+Definition version: [your local version label]
+Character name: [fictional name]
+Adult age: [explicit adult age]
+Role and background: [only the facts needed for the story]
+
+Stable personality:
+[Two or three traits expressed as observable behavior, not only adjectives.]
+
+Behavior when uncertain:
+[How the character distinguishes facts, guesses and missing information.]
+
+Behavior during disagreement:
+[How the character questions or corrects without contradicting your intended tone.]
+
+Voice:
+[Language, typical response length and one or two distinctive speaking habits.]
+
+User role and agency:
+[The user's fictional adult role. State which speech, actions, feelings and decisions remain for the user to choose.]
+
+Boundaries:
+[SFW scope and any scene-specific boundaries. Do not use private information or security credentials.]
+
+Durable premise:
+[A setting that can support multiple scenes. Keep current branch events in a separate checkpoint.]
+
+Authored voice example:
+Label: Style demonstration only, not established story history.
+User: [one fictional line]
+Character: [one authored line demonstrating the behavior and voice]
+
+Keep separate:
+- Current scene facts and unresolved decisions belong in the scene checkpoint.
+- Exported messages belong in a privately stored archive.
+- Permissions, attribution and private review notes do not need to be pasted into chat input.

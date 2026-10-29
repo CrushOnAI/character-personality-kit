@@ -82,3 +82,7 @@ Use the [AI roleplay setup worksheet](tools/roleplay-setup-worksheet/README.md) 
 ## Character card JSON preflight
 
 The [AI character card field checker](tools/character-card-field-checker/README.md) checks selected V1/V2 fields, separates missing values from empty strings, and flags mapping risks before importing an owned character into [CrushOn AI](https://crushon.ai/character/create). It includes 30 local tests, the exact original SFW Iris fixture and a bounded record of one unsaved draft import. Passing the checker does not establish application compatibility or model behavior.
+
+## Continue an original story in CrushOn AI
+
+The [Character Continuation Kit](templates/continuation-kit/README.md) provides editable character, checkpoint and continuation templates, a complete adult SFW Iris example, and a manual CrushOn field map. It separates established events from hypotheses and user choices. These are authored writing resources, not a complete-chat importer or a new model benchmark.
